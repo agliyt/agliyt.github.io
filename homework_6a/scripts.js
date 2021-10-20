@@ -57,6 +57,6 @@ function addToCart(bun) {
     buns = buns + ',' + bun + '+' + settings.amount.toString() + '+' + settings.glazing;
   }
   document.cookie = 'buns=' + buns;
-  console.log(buns);
+  console.log(document.cookie);
   console.log(countCart());
 }

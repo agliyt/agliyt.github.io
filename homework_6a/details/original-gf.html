@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bun Bun Bakeshop</title>
   <link rel="stylesheet" href="../styles.css">
+  <script src="../scripts.js" async></script>
 </head>
 <body>
 <!-- Navigation -->
@@ -24,7 +25,7 @@
   <div class="product-pic col3">
     <img src="../pics/original-gf.jpg" alt="Original (GF) Bun Bun" />
     <p>$-.--</p>
-    <h2>Add to oven <img id="mittens" src="../pics/mittens.png" alt="oven mittens" /></h2>
+    <h2 onclick="addToCart('original-gf')">Add to oven <img id="mittens" src="../pics/mittens.png" alt="oven mittens" /></h2>
   </div>
   <div class="col3">
     <span>Original (GF)</span>
@@ -34,20 +35,20 @@
     <div class="amount">
       <p>Amount</p>
       <div class="choices row">
-        <button class="col4">1</button>
-        <button class="col4">3</button>
-        <button class="col4">6</button>
-        <button class="col4">12</button>
+        <button onclick="setAmount(getElementById('amount-1'), 1)" id="amount-1" class="col4">1</button>
+        <button onclick="setAmount(getElementById('amount-3'), 3)" id="amount-3" class="col4">3</button>
+        <button onclick="setAmount(getElementById('amount-6'), 6)" id="amount-6" class="col4">6</button>
+        <button onclick="setAmount(getElementById('amount-12'), 12)" id="amount-12" class="col4">12</button>
       </div>
     </div>
     <!-- Glazing -->
     <div class="glazing">
       <p>Glazing <button>Pick for me!</button></p>
       <div class="choices row">
-        <button class="col4">No glazing</button>
-        <button class="col4">Sugar milk</button>
-        <button class="col4">Vanilla milk</button>
-        <button class="col4">Double chocolate</button>
+        <button onclick="setGlazing(getElementById('glazing-none'), 'none')" id="glazing-none" class="col4">No glazing</button>
+        <button onclick="setGlazing(getElementById('glazing-sugar'), 'sugar')" id="glazing-sugar" class="col4">Sugar milk</button>
+        <button onclick="setGlazing(getElementById('glazing-vanilla'), 'vanilla')" id="glazing-vanilla" class="col4">Vanilla milk</button>
+        <button onclick="setGlazing(getElementById('glazing-chocolate'), 'chocolate')" id="glazing-chocolate" class="col4">Double chocolate</button>
       </div>
     </div>
     <!-- Clickable dropdowns -->
