@@ -50,7 +50,7 @@ function countCart() {
 }
 
 function onLoad() {
-  document.getElementById("cartNum").innerHTML = countCart().toString();
+  document.getElementById("cartNum").innerHTML = countCart();
 }
 
 function addToCart(bun) {
