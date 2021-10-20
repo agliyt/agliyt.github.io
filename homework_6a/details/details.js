@@ -46,7 +46,7 @@ function countCart() {
   if (count === null) {
       return 0;
   }
-  return count;
+  return parseInt(count);
 }
 
 function addToCart(bun) {
