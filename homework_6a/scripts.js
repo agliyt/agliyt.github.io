@@ -49,6 +49,10 @@ function countCart() {
   return buns.split(",").length;
 }
 
+function onLoad() {
+  document.getElementById("cartNum").innerHTML = countCart().toString();
+}
+
 function addToCart(bun) {
   let buns = readCookie("buns");
   if (buns === null) {
@@ -57,7 +61,7 @@ function addToCart(bun) {
     buns = buns + ',' + bun + '+' + settings.amount.toString() + '+' + settings.glazing;
   }
   document.cookie = 'buns=' + buns;
-  document.getElementById("cartNum").innerHTML = countCart().toString();
+  onLoad();
   console.log(document.cookie);
   console.log(countCart());
 }
