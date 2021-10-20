@@ -42,22 +42,21 @@ function readCookie(name) {
 }
 
 function countCart() {
-  let count = readCookie("count");
-  if (count === null) {
+  let buns = readCookie("buns");
+  if (buns === null) {
       return 0;
   }
-  return parseInt(count);
+  return buns.split(",").length;
 }
 
 function addToCart(bun) {
-  let count = countCart() + 1;
   let buns = readCookie("buns");
   if (buns === null) {
     buns = bun + '+' + settings.amount.toString() + '+' + settings.glazing;
   } else {
     buns = buns + ',' + bun + '+' + settings.amount.toString() + '+' + settings.glazing;
   }
-  document.cookie = 'count=' + count.toString() + '; ' + 'buns=' + buns;
-  console.log(document.cookie);
+  document.cookie = 'buns=' + buns;
+  console.log(buns);
   console.log(countCart());
 }
