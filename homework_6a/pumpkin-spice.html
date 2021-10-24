@@ -24,7 +24,7 @@
 <div class="details row">
   <div class="product-pic col3">
     <img src="pics/pumpkin-spice.jpg" alt="Pumpkin Spice Bun Bun" />
-    <p>$-.--</p>
+    <p id="price">$-.--</p>
     <h2 onclick="addToCart('pumpkin-spice')">Add to oven <img id="mittens" src="pics/mittens.png" alt="oven mittens" /></h2>
   </div>
   <div class="col3">
@@ -43,7 +43,7 @@
     </div>
     <!-- Glazing -->
     <div class="glazing">
-      <p>Glazing <button>Pick for me!</button></p>
+      <p>Glazing <button onclick="randomPick()">Pick for me!</button></p>
       <div class="choices row">
         <button onclick="setGlazing(getElementById('glazing-none'), 'none')" id="glazing-none" class="col4">No glazing</button>
         <button onclick="setGlazing(getElementById('glazing-sugar'), 'sugar')" id="glazing-sugar" class="col4">Sugar milk</button>

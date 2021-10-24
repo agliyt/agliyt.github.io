@@ -1,9 +1,9 @@
-let settings = new Object();
+var settings = new Object();
 
-let amount1 = document.getElementById("amount-1");
-let amount3 = document.getElementById("amount-3");
-let amount6 = document.getElementById("amount-6");
-let amount12 = document.getElementById("amount-12");
+var amount1 = document.getElementById("amount-1");
+var amount3 = document.getElementById("amount-3");
+var amount6 = document.getElementById("amount-6");
+var amount12 = document.getElementById("amount-12");
 
 function setAmount(button, amount) {
   amount1.style.background='#DFD2BF';
@@ -11,14 +11,15 @@ function setAmount(button, amount) {
   amount6.style.background='#DFD2BF';
   amount12.style.background='#DFD2BF';
   button.style.background='#C5AB85';
+  document.getElementById("price").innerHTML = '$' + amount * 3 + '.00';
   settings.amount = amount;
   console.log(settings);
 }
 
-let glazingNone = document.getElementById("glazing-none");
-let glazingSugar = document.getElementById("glazing-sugar");
-let glazingVanilla = document.getElementById("glazing-vanilla");
-let glazingChocolate = document.getElementById("glazing-chocolate");
+var glazingNone = document.getElementById("glazing-none");
+var glazingSugar = document.getElementById("glazing-sugar");
+var glazingVanilla = document.getElementById("glazing-vanilla");
+var glazingChocolate = document.getElementById("glazing-chocolate");
 
 function setGlazing(button, glazing) {
   glazingNone.style.background='#DFD2BF';
@@ -30,11 +31,18 @@ function setGlazing(button, glazing) {
   console.log(settings);
 }
 
+var options = ['none', 'sugar', 'vanilla', 'chocolate'];
+
+function randomPick() {
+  var option = options[Math.floor(Math.random() * 4)];
+  setGlazing(document.getElementById('glazing-' + option), option);
+}
+
 function readCookie(name) {
-	let nameEQ = name + "=";
-	let ca = document.cookie.split(';');
-	for(let i = 0; i < ca.length; i++) {
-		let c = ca[i];
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i = 0; i < ca.length; i++) {
+		var c = ca[i];
 		while (c.charAt(0)==' ') c = c.substring(1,c.length);
 		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
 	}
@@ -42,7 +50,7 @@ function readCookie(name) {
 }
 
 function countCart() {
-  let buns = readCookie("buns");
+  var buns = readCookie("buns");
   if (buns === null) {
       return 0;
   }
@@ -54,7 +62,7 @@ function onLoad() {
 }
 
 function addToCart(bun) {
-  let buns = readCookie("buns");
+  var buns = readCookie("buns");
   if (buns === null) {
     buns = bun + '+' + settings.amount.toString() + '+' + settings.glazing;
   } else {

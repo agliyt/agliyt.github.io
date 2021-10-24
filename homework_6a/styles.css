@@ -2,6 +2,9 @@
   background-color: #DFD2BF;
   overflow: hidden;
   padding-right: 100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navbar a {
@@ -56,10 +59,20 @@
   padding-top: 5px;
 }
 
+#cartNum {
+  color: #DFD2BF;
+  font-size: 20px;
+  margin-right: 100px;
+  padding: 0px 5px;
+  background-color: #C5AB85;
+  border-radius: 32px;
+}
+
 .welcome {
   color: #B46E06;
   font-family: 'Trebuchet MS';
   margin: 0px 160px;
+  margin-top: 140px;
 }
 
 .welcome p {
@@ -186,6 +199,10 @@
 .filters {
   background-color: #F1E8DA;
   padding: 10px;
+  margin-top: 86px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .filters .search {
@@ -281,6 +298,10 @@
   color: #B46E06;
 }
 
+.browse-buns {
+  margin-top: 140px;
+}
+
 .content .bun {
   height: auto;
   background-color: #F1E8DA;
@@ -324,6 +345,10 @@
   border-radius: 95px;
   text-align: center;
   margin: 20px 0px;
+}
+
+.details {
+  margin-top: 90px;
 }
 
 .details .product-pic p {
@@ -442,3 +467,107 @@
   float: right;
 }
 
+#cartItems {
+  font-family: 'Trebuchet MS';
+  color: #B46E06;
+  float: left;
+  margin-left: 70px;
+  font-size: 25px;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+.cartItem {
+  background-color: #F1E8DA;
+  min-width: 850px;
+  min-height: 100px;
+  border-radius: 24px;
+  margin: 30px 0px;
+  padding-top: 10px;
+}
+
+.cartItem img {
+  width: 8rem;
+  border-radius: 12px;
+  vertical-align: middle;
+  float: left;
+}
+
+.dropdown-content-amt {
+  min-width: 47px;
+  margin-top: 45px;
+  margin-left: 15px;
+}
+
+.cartItem section {
+  display: inline;
+  float: left;
+  margin: 10px;
+}
+
+.big-label {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.dropdown-amt {
+  float: left;
+  margin: 15px;
+}
+
+.dropdown-glaze {
+  margin: 0px;
+}
+
+.dropdown-content-glaze {
+  margin: 0;
+}
+
+.money {
+  font-size: 60px;
+  float: right;
+  margin: 5px 10px;
+}
+
+.close {
+  float: right;
+  margin: 25px;
+  font-size: 30px;
+  color: black;
+}
+
+#checkout {
+  float: right;
+  font-family: 'Trebuchet MS';
+  color: #B46E06;
+  background-color: #F1E8DA;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 180px 30px;
+  padding: 50px 0px;
+  width: 350px;
+  text-align: center;
+  border-radius: 48px;
+}
+
+#checkout h2 {
+  font-size: 30px;
+}
+
+#checkout p {
+  font-size: 20px;
+}
+
+#checkout h1 {
+  font-size: 50px;
+}
+
+#checkout-button {
+  font-size: 50px;
+  background-color: #C5AB85;
+  width: 300px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin: 30px;
+}
