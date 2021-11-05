@@ -410,6 +410,10 @@
   margin: 0px 20px;
 }
 
+.details h2 {
+  cursor: pointer;
+}
+
 .amount {
   background-color: #F1E8DA;
   border-radius: 24px;
@@ -534,6 +538,7 @@
   margin: 25px;
   font-size: 30px;
   color: black;
+  cursor: pointer;
 }
 
 #checkout {
