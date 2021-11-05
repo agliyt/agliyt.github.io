@@ -226,6 +226,7 @@ function deleteItem(i) {
   }
   buns = buns.slice(1);
   document.cookie = 'buns=' + buns;
+  console.log(document.cookie);
 
   cartItems = [];
   location.reload(); 
