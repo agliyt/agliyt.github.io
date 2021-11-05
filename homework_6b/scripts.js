@@ -49,7 +49,7 @@ function readCookie(name) {
 
 function countCart() {
   var buns = readCookie("buns");
-  if (buns === null) {
+  if (buns === null || buns === "") {
       return 0;
   }
   return buns.split(",").length;
@@ -83,7 +83,6 @@ var totalPrice = 0;
 
 function displayCart() {
   var cookie = readCookie("buns");
-  console.log(cookie);
   if (cookie != null && cookie != "") {
     var buns = cookie.split(",");
     for (var i = 0; i < buns.length; i++) {
