@@ -62,7 +62,7 @@ function onLoad() {
 
 function addToCart(bun) {
   var buns = readCookie("buns");
-  if (buns === null) {
+  if (buns === null || buns === "") {
     buns = bun + '+' + settings.amount.toString() + '+' + settings.glazing;
   } else {
     buns = buns + ',' + bun + '+' + settings.amount.toString() + '+' + settings.glazing;
