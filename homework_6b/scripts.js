@@ -49,6 +49,7 @@ function readCookie(name) {
 
 function countCart() {
   var buns = readCookie("buns");
+  console.log(buns);
   if (buns === null || buns === "") {
       return 0;
   }
@@ -226,7 +227,6 @@ function deleteItem(i) {
   }
   buns = buns.slice(1);
   document.cookie = 'buns=' + buns;
-  console.log(document.cookie);
 
   cartItems = [];
   location.reload(); 
