@@ -223,9 +223,7 @@ function deleteItem(i) {
     }
   }
   buns = buns.slice(1);
-  console.log(buns);
   document.cookie = 'buns=' + buns;
 
-  onLoad();
-  displayCart();
+  location.reload();
 }
