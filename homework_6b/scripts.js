@@ -13,7 +13,6 @@ function setAmount(button, amount) {
   button.style.background='#C5AB85';
   document.getElementById("price").innerHTML = '$' + amount * 3 + '.00';
   settings.amount = amount;
-  console.log(settings);
 }
 
 var glazingNone = document.getElementById("glazing-none");
@@ -28,7 +27,6 @@ function setGlazing(button, glazing) {
   glazingChocolate.style.background='#DFD2BF';
   button.style.background='#C5AB85';
   settings.glazing = glazing;
-  console.log(settings);
 }
 
 var options = ['none', 'sugar', 'vanilla', 'chocolate'];
