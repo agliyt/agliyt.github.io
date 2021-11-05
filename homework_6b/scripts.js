@@ -225,7 +225,9 @@ function deleteItem(i) {
       buns += ',' + currItem.bun + '+' + currItem.amount.toString() + '+' + currItem.glazing;
     }
   }
-  buns = buns.slice(1);
+  if (buns != "") {
+    buns = buns.slice(1);
+  }
   document.cookie = 'buns=' + buns;
 
   cartItems = [];
