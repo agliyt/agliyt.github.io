@@ -225,5 +225,6 @@ function deleteItem(i) {
   buns = buns.slice(1);
   document.cookie = 'buns=' + buns;
 
-  window.location.reload(true); 
+  cartItems = [];
+  location.reload(); 
 }
