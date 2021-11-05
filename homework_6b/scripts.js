@@ -83,14 +83,16 @@ var totalPrice = 0;
 
 function displayCart() {
   var cookie = readCookie("buns");
-  var buns = cookie.split(",");
-  for (var i = 0; i < buns.length; i++) {
-    var customizations = buns[i].split("+");
-    cartItems[i] = {
-      bun: customizations[0],
-      amount: customizations[1].toString(),
-      glazing: customizations[2]
-    };
+  if (cookie != null) {
+    var buns = cookie.split(",");
+    for (var i = 0; i < buns.length; i++) {
+      var customizations = buns[i].split("+");
+      cartItems[i] = {
+        bun: customizations[0],
+        amount: customizations[1].toString(),
+        glazing: customizations[2]
+      };
+    }
   }
 
   for (var i = 0; i < cartItems.length; i++) {
@@ -225,5 +227,6 @@ function deleteItem(i) {
   buns = buns.slice(1);
   document.cookie = 'buns=' + buns;
 
-  window.location.href = window.location.href;
+  cartItems = [];
+  location.reload(); 
 }
