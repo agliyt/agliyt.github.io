@@ -225,5 +225,5 @@ function deleteItem(i) {
   buns = buns.slice(1);
   document.cookie = 'buns=' + buns;
 
-  location.reload();
+  window.location.reload(true); 
 }
