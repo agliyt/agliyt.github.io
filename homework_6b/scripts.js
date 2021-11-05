@@ -39,7 +39,6 @@ function randomPick() {
 }
 
 function readCookie(name) {
-  //return "original+1+sugar,original-gf+3+vanilla,caramel-pecan+12+none";
 	var nameEQ = name + "=";
 	var ca = document.cookie.split(';');
 	for(var i = 0; i < ca.length; i++) {
@@ -71,8 +70,6 @@ function addToCart(bun) {
   }
   document.cookie = 'buns=' + buns;
   onLoad();
-  console.log(document.cookie);
-  console.log(countCart());
 }
 
 function capitalizeFirstLetter(string) {
@@ -190,6 +187,7 @@ function displayCart() {
 
     var close = document.createElement('span');
     close.className = 'close';
+    close.setAttribute("onclick","deleteItem(" + i + ")");
     close.innerHTML = 'x';
     div.appendChild(close);
 
@@ -216,4 +214,19 @@ function resetTotal() {
   var totalSum = totalPrice + taxes + 5;
   var total = document.getElementById('total');
   total.innerHTML = 'Total: $' + totalSum;
+}
+
+function deleteItem(i) {
+  var buns = "";
+  for (var j = 0; j < cartItems.length; j++) {
+    if (Number(i) != Number(j)) {
+      currItem = cartItems[j];
+      buns += ',' + currItem.bun + '+' + currItem.amount.toString() + '+' + currItem.glazing;
+    }
+  }
+  buns = buns.slice(1);
+  document.cookie = 'buns=' + buns;
+
+  onLoad();
+  displayCart();
 }
