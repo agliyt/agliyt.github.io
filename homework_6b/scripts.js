@@ -49,7 +49,6 @@ function readCookie(name) {
 
 function countCart() {
   var buns = readCookie("buns");
-  console.log(buns);
   if (buns === null || buns === "") {
       return 0;
   }
