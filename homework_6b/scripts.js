@@ -83,7 +83,8 @@ var totalPrice = 0;
 
 function displayCart() {
   var cookie = readCookie("buns");
-  if (cookie != null) {
+  console.log(cookie);
+  if (cookie != null && cookie != "") {
     var buns = cookie.split(",");
     for (var i = 0; i < buns.length; i++) {
       var customizations = buns[i].split("+");
