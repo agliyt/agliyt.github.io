@@ -1,0 +1,1381 @@
+.phone {
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    width: 844px;
+    height: 390px;
+    background: #A8E2F6;
+}
+
+.phone2 {
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    width: 844px;
+    height: 390px;
+}
+
+.left-cloud {
+    position: absolute;
+    width: 737px;
+    height: 609px;
+    left: -271px;
+    top: -96px;
+}
+
+.right-cloud {
+    position: absolute;
+    width: 737px;
+    height: 609px;
+    left: 388px;
+    top: -96px;
+}
+
+.left-sidebar {
+    position: absolute;
+    width: 87px;
+    height: 308px;
+    left: 45px;
+    top: 34px;
+}
+
+.right-sidebar-lessons {
+    position: absolute;
+    width: 92px;
+    height: 293px;
+    left: 731px;
+    top: 30px;
+}
+
+.sidebar-lessons {
+    position: absolute;
+    width: 92px;
+    height: 89px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.sidebar-band {
+    position: absolute;
+    width: 92px;
+    height: 89px;
+    top: 102px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.sidebar-leaderboard {
+    position: absolute;
+    width: 92px;
+    height: 89px;
+    top: 204px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.selected {
+    background: #F3F3F3;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    cursor: default;
+}
+
+.map {
+    position: absolute;
+    left: 23px;
+    top: 15px;
+}
+
+.horn {
+    position: absolute;
+    left: 22px;
+    top: 14px;
+}
+
+.leaderboard {
+    position: absolute;
+    left: 25px;
+    top: 15px;
+}
+
+.text {
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.lessons-text {
+    position: absolute;
+    width: 57px;
+    height: 19px;
+    left: 18px;
+    top: 50px;
+}
+
+.band-text {
+    position: absolute;
+    width: 57px;
+    height: 19px;
+    left: 29px;
+    top: 52px;
+}
+
+.leaderboard-text {
+    position: absolute;
+    width: 57px;
+    height: 19px;
+    left: 4px;
+    top: 51px;
+}
+
+.profile {
+    box-sizing: border-box;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: #FFF2B3;
+    border: 3px solid #FDC201;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.profile-pic {
+    position: absolute;
+    left: 11px;
+    top: 11px;
+}
+
+.inventory {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.chest {
+    position: absolute;
+    left: 1.08px;
+    top: 2.16px;
+}
+
+.inventory-items {
+    position: absolute;
+    left: 18px;
+    top: 135px;
+}
+
+.hearts {
+    position: absolute;
+    width: 60px;
+    height: 24px;
+    left: 9px;
+    top: 6px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.streaks {
+    position: absolute;
+    width: 60px;
+    height: 24px;
+    left: 9px;
+    top: 44px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.heart {
+    position: absolute;
+    left: -9px;
+    top: -6px;
+}
+
+.streak {
+    position: absolute;
+    width: 26px;
+    height: 35.47px;
+    left: -5px;
+    top: -6px;
+}
+
+.inventory-text {
+    position: absolute;
+    font-size: 16px;
+    left: 35px;
+    top: -10px;
+}
+
+.streak-text {
+    position: absolute;
+    font-size: 16px;
+    left: 35px;
+    top: -10px;
+}
+
+.settings {
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    left: 20px;
+    top: 279px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.question {
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    left: 54px;
+    top: 279px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.settings-pic {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+
+.question-pic {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
+.island-1 {
+    position: absolute;
+    width: 207px;
+    height: 205.5px;
+    left: 184px;
+    top: 170px;
+}
+
+.rhythm-1 {
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    left: 32px;
+    top: 75px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.staff-1 {
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    left: 104px;
+    top: 96px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.harmony-1 {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 102px;
+    top: 21px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.dash-1 {
+    position: absolute;
+    width: 115.77px;
+    height: 45.93px;
+    left: 395.66px;
+    top: 261.43px;
+}
+
+.island-2 {
+    position: absolute;
+    width: 213px;
+    height: 258.5px;
+    left: 442px;
+    top: 34px;
+}
+
+.form {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 34.5px;
+    top: 113px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.rhythm-2 {
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    left: 37px;
+    top: 41px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.harmony-2 {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 111px;
+    top: 72px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.ed {
+    position: absolute;
+    width: 129px;
+    height: 117.08px;
+    left: 31px;
+    top: -36px;
+}
+
+.elephant-drums {
+    position: absolute;
+    width: 93px;
+    height: 109px;
+    left: 20px;
+    top: -41px;
+}
+
+#lesson-button {
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    left: 113px;
+    top: 142px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+
+.dash-2 {
+    position: absolute;
+    width: 65.96px;
+    height: 31.52px;
+    left: 367.73px;
+    top: 119.17px;
+}
+
+.island-3 {
+    position: absolute;
+    width: 246.5px;
+    height: 208.5px;
+    left: 179px;
+    top: -83px;
+}
+
+.lock {
+    position: absolute;
+    left: 96px;
+    top: 58px;
+}
+
+.top-bar {
+    position: absolute;
+    width: 53px;
+    height: 27px;
+    left: 163px;
+    top: 34px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.top-bar-text {
+    position: absolute;
+    width: 9px;
+    height: 27px;
+    left: 12px;
+    top: -14px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #0083C5;
+}
+
+.top-bar-arrow {
+    position: absolute;
+    left: 27px;
+    top: 6px;
+}
+
+.lesson-overlay {
+    position: relative;
+    width: 531px;
+    height: 294px;
+    left: 156.5px;
+    top: 48px;
+}
+
+.box {
+    position: absolute;
+    width: 528px;
+    height: 269px;
+    left: 0px;
+    top: 18px;
+    background: #E9F2CC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 41px;
+}
+
+.lesson-top {
+    position: absolute;
+    width: 157px;
+    height: 36px;
+    left: 185px;
+    background: #D1E496;
+    border-radius: 14px;
+}
+
+.lesson-top-text {
+    position: absolute;
+    width: 48px;
+    height: 27px;
+    left: 55px;
+    top: -10px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.lesson-outline-bar {
+    position: absolute;
+    width: 438px;
+    height: 60px;
+    left: 45px;
+    top: 89px;
+    background: #F2F9DC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.lesson-outline-text-1 {
+    position: absolute;
+    width: 100.27px;
+    height: 22px;
+    left: 24.27px;
+    top: 8px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+
+.lesson-outline-text-2 {
+    position: absolute;
+    width: 121.37px;
+    height: 22px;
+    left: 42.22px;
+    top: -1px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+}
+
+.lesson-outline-box {
+    position: absolute;
+    width: 238.53px;
+    height: 41px;
+    left: 175.2px;
+    top: 9px;
+    background: #D1E496;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+.book {
+    position: absolute;
+    left: 169.92px;
+    top: 9px;
+}
+
+.right-arrow-1 {
+    position: absolute;
+    left: 213.2px;
+    top: 9px;
+}
+
+.x {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 21px;
+    top: 32px;
+    cursor: pointer;
+}
+
+.lesson-title {
+    position: absolute;
+    width: 219px;
+    height: 27px;
+    left: 57px;
+    top: 16px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+}
+
+.icon-box {
+    position: absolute;
+    width: 123px;
+    height: 44px;
+    left: 360px;
+    top: 28px;
+    background: #F2F9DC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.staff-icon {
+    position: absolute;
+    left: 21px;
+    top: 2px;
+}
+
+.terms-icon {
+    position: absolute;
+    left: 69px;
+    top: 2px;
+}
+
+.lesson-rewards {
+    position: absolute;
+    width: 177px;
+    height: 84px;
+    left: 80px;
+    top: 160px;
+    background: #F2F9DC;
+    border-radius: 11px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.lesson-rewards-text {
+    position: absolute;
+    width: 72px;
+    height: 44px;
+    left: 13px;
+    top: 10px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.lesson-diamond-circle {
+    box-sizing: border-box;
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    left: 103px;
+    top: 11px;
+    border-radius: 50%;
+    background: #D9FFFF;
+    border: 1px solid #79D3D3;
+}
+
+.lesson-diamond {
+    position: absolute;
+    width: 30.51px;
+    height: 30.51px;
+    left: 8.25px;
+    top: 9.89px;
+}
+
+.lesson-diamond-text {
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 94px;
+    top: 51px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+}
+
+.begin-lesson {
+    position: absolute;
+    width: 179px;
+    height: 73px;
+    left: 270px;
+    top: 165px;
+    background: linear-gradient(101.72deg, #CBE186 14.72%, #E8F9B6 97.72%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+.begin-lesson-text {
+    position: absolute;
+    width: 129px;
+    height: 27px;
+    left: 17px;
+    top: 9px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.right-arrow-2 {
+    position: absolute;
+    left: 150px;
+    top: 25px;
+}
+
+.bear-cello {
+    position: absolute;
+    left: 42px;
+    top: 174px;
+}
+
+.music-notes {
+    position: absolute;
+    left: 57px;
+    top: 87px;
+}
+
+.great-job-text {
+    position: absolute;
+    left: 337px;
+    top: 10px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4868D4;
+}
+
+.xp-earned {
+    position: absolute;
+    width: 174.67px;
+    height: 52px;
+    left: 335px;
+    top: 115px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.xp-text {
+    position: absolute;
+    left: 6.67%;
+    right: -246.67%;
+    top: 10.27%;
+    bottom: 106.73%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #5E5E5E;
+}
+
+.additional-xp-text {
+    position: absolute;
+    left: 34.67%;
+    right: -246.67%;
+    ;
+    top: 15.27%;
+    bottom: 106.73%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #5E5E5E;
+}
+
+.progress-bar-base {
+    position: absolute;
+    width: 152px;
+    height: 15px;
+    left: 11px;
+    top: 28px;
+    background: #EAEAEA;
+    border-radius: 20px;
+}
+
+.progress-bar {
+    position: absolute;
+    width: 124px;
+    height: 15px;
+    left: 11px;
+    top: 28px;
+    background: linear-gradient(92.35deg, #96DE8A -19.85%, #52C53F 90.5%);
+    border-radius: 20px;
+}
+
+.level-rewards-text {
+    position: absolute;
+    width: 178px;
+    height: 31px;
+    left: 343px;
+    top: 182px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+}
+
+.diamond-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 394px;
+    top: 240px;
+    background: #D9FFFF;
+    border: 1px solid #79D3D3;
+    border-radius: 50px;
+}
+
+.diamond {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+
+.diamond-text {
+    position: absolute;
+    width: 86px;
+    height: 19px;
+    left: 380px;
+    top: 294.26px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #5E5E5E;
+}
+
+.next-button {
+    position: absolute;
+    width: 98px;
+    height: 37.51px;
+    left: 697px;
+    top: 319.49px;
+    background: linear-gradient(97.81deg, #4868D4 -0.16%, #839AE9 107.18%);
+    box-shadow: 1px 2px 8px 1px #CED7F5;
+    border-radius: 18.7531px;
+    cursor: pointer;
+}
+
+.next-text {
+    position: absolute;
+    width: 55.65px;
+    height: 19.36px;
+    left: 27px;
+    top: -4px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.skills {
+    position: absolute;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+}
+
+.skills-mastered {
+    width: 194px;
+    height: 36px;
+    left: 284px;
+    top: 213px;
+}
+
+.skills-learned {
+    width: 180px;
+    height: 36px;
+    left: 285px;
+    top: 253px;
+}
+
+.skills-topic {
+    position: absolute;
+    font-family: 'Nunito';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+}
+
+.skills-topic-1 {
+    width: 168px;
+    height: 36px;
+    left: 445px;
+    top: 213px;
+}
+
+.skills-topic-2 {
+    width: 177px;
+    height: 36px;
+    left: 430px;
+    top: 253px;
+}
+
+.streak-circle-1 {
+    position: absolute;
+    width: 151px;
+    height: 151px;
+    left: 346px;
+    top: 119px;
+    border-radius: 50%;
+    background: #FAF1E8;
+}
+
+.streak-circle-progress-bar {
+    position: absolute;
+    width: 151px;
+    height: 151px;
+    border-radius: 50%;
+    background-image: /* 20% = 18deg = 90 - ( 360 * .2 ) */
+    linear-gradient(90deg, transparent 50%, #E5A162 50%), linear-gradient(18deg, #E5A162 50%, transparent 50%);
+}
+
+.streak-circle-2 {
+    position: absolute;
+    width: 121.72px;
+    height: 121.72px;
+    left: 14.64px;
+    top: 14.64px;
+    border-radius: 50%;
+    background: white;
+}
+
+.streak-in-circle {
+    position: absolute;
+    left: 33.04px;
+    top: 11.85px;
+}
+
+.streak-in-circle-text {
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 74.48%;
+    bottom: 17.58%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #DC756D;
+}
+
+.streak-message {
+    position: absolute;
+    left: 219px;
+    top: 38px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4868D4;
+}
+
+.star-1 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 266px;
+    top: 190px;
+}
+
+.star-2 {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 239.18px;
+    top: 236.98px;
+    transform: rotate(-15deg);
+}
+
+.star-3 {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 266px;
+    top: 260.5px;
+    transform: rotate(-30deg);
+}
+
+.star-4 {
+    position: absolute;
+    width: 79px;
+    height: 79px;
+    left: 521px;
+    top: 185px;
+    transform: rotate(-60deg);
+}
+
+.star-5 {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    left: 521px;
+    top: 270px;
+    transform: rotate(-80deg);
+}
+
+.band-message-1 {
+    position: absolute;
+    left: 135px;
+    top: 38px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4868D4;
+}
+
+.band-message-1-orange {
+    position: absolute;
+    left: 620px;
+    top: 38px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(95.73deg, #FFD54D 76.35%, #F48F31 99.26%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.timmy {
+    position: absolute;
+    width: 108.85px;
+    height: 160px;
+    left: 244px;
+    top: 150px;
+    cursor: pointer;
+}
+
+.timmy-text {
+    position: absolute;
+    width: 80px;
+    height: 24.92px;
+    left: 29.43px;
+    top: 125.08px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6EB164;
+}
+
+.ariel {
+    position: absolute;
+    width: 88.42px;
+    height: 137.87px;
+    left: 384.85px;
+    top: 172px;
+    cursor: pointer;
+}
+
+.ariel-text {
+    position: absolute;
+    width: 83.27px;
+    height: 25.94px;
+    left: 30.15px;
+    top: 102.95px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #815A49;
+}
+
+.gus {
+    position: absolute;
+    width: 95px;
+    height: 168.18px;
+    left: 505px;
+    top: 141px;
+    cursor: pointer;
+}
+
+.gus-pic {
+    width: 95px;
+    height: 137.36px;
+}
+
+.gus-text {
+    position: absolute;
+    width: 78.31px;
+    height: 24.39px;
+    left: 35.15px;
+    top: 135.26px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #E88021;
+}
+
+.gus-text-selected {
+    position: absolute;
+    width: 78.31px;
+    height: 24.39px;
+    left: 35.15px;
+    top: 135.26px;
+    font-family: 'Nunito';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #E88021;
+}
+
+.gus-arrow {
+    position: absolute;
+    left: 12px;
+    top: 149px;
+}
+
+.confirm-button {
+    position: absolute;
+    width: 133px;
+    height: 38px;
+    left: 662px;
+    top: 319px;
+    background: linear-gradient(97.81deg, #4868D4 -0.16%, #839AE9 107.18%);
+    box-shadow: 1px 2px 8px 1px #CED7F5;
+    border-radius: 18.7531px;
+    cursor: pointer;
+}
+
+.confirm-text {
+    position: absolute;
+    width: 55.65px;
+    height: 19.36px;
+    left: 29px;
+    top: -4px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.left-cloud.move {
+    animation: move-left-to-right 1s ease-out forwards;
+}
+
+.left-cloud.move-out {
+    animation: move-right-to-left 1s ease-out forwards;
+}
+
+.right-cloud.move {
+    animation: move-right-to-left 1s ease-out forwards;
+}
+
+.right-cloud.move-out {
+    animation: move-left-to-right 1s ease-out forwards;
+}
+
+@keyframes move-left-to-right {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(50%);
+    }
+}
+
+@keyframes move-right-to-left {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.gus-confirmed {
+    position: absolute;
+    width: 147px;
+    height: 212.55px;
+    left: 255px;
+    top: 132px;
+}
+
+.sparkle-1 {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    left: 242px;
+    top: 126px;
+}
+
+.sparkle-2 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 242px;
+    top: 164px;
+}
+
+.sparkle-3 {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 370px;
+    top: 192px;
+}
+
+.band-message-2 {
+    position: absolute;
+    left: 300px;
+    top: 38px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4868D4;
+}
+
+.band-message-2-orange {
+    position: absolute;
+    left: 234px;
+    top: 38px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(96.6deg, #FFD54D 18.98%, #F48F31 36.94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.view-band-button {
+    position: absolute;
+    width: 159px;
+    height: 38px;
+    left: 438px;
+    top: 164px;
+
+    background: linear-gradient(85.76deg, #FAC928 9.08%, #F0821C 92.34%);
+    box-shadow: 1px 2px 8px 1px #FAC663;
+    border-radius: 18.7531px;
+    cursor: pointer;
+}
+
+.view-band-text {
+    position: absolute;
+    width: 107.78px;
+    height: 19px;
+    left: 31.61px;
+    top: -4px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.next-level-button {
+    position: absolute;
+    width: 159px;
+    height: 38px;
+    left: 438px;
+    top: 224px;
+
+    background: linear-gradient(97.81deg, #4868D4 -0.16%, #839AE9 107.18%);
+    box-shadow: 1px 2px 8px 1px #CED7F5;
+    border-radius: 18.7531px;
+    cursor: pointer;
+}
+
+.next-level-text {
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 31.61px;
+    top: -4px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.left-sidebar-bg {
+    position: absolute;
+    width: 241px;
+    height: 390px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(91.14deg, #E6EBFE 0.85%, #F2F4FE 47.88%, rgba(255, 255, 255, 0) 98.91%);
+}
+
+.right-sidebar-bg {
+    position: absolute;
+    width: 241px;
+    height: 390px;
+    left: 604px;
+
+    background: linear-gradient(91.14deg, #E6EBFE 0.85%, #F2F4FE 47.88%, rgba(255, 255, 255, 0) 98.91%);
+    transform: rotate(-180deg);
+}
+
+.band-bear {
+    position: absolute;
+    width: 130px;
+    height: 194px;
+    left: 241px;
+    top: 88px;
+}
+
+.band-gus {
+    position: absolute;
+    width: 125px;
+    height: 180.74px;
+    left: 357px;
+    top: 115px;
+}
+
+.band-elephant {
+    position: absolute;
+    width: 164px;
+    height: 190px;
+    left: 475px;
+    top: 88px;
+}
