@@ -9,7 +9,7 @@ $(document).ready(function() {
         $(".streak-text").text("5");
         $(".phone2").after(`
             <div>
-                <audio autoplay loop controls style="margin: 0 auto; display: block;">
+                <audio autoplay loop style="margin: 0 auto; display: block;">
                     <source id="audio-band" src="audio/guitar.mp3" type="audio/mp3">
                 </audio>
             </div>
@@ -22,7 +22,7 @@ $(document).ready(function() {
         $(".streak-text").text("4");
         $(".phone2").after(`
             <div>
-                <audio autoplay loop controls style="margin: 0 auto; display: block;">
+                <audio autoplay loop style="margin: 0 auto; display: block;">
                     <source id="audio-band" src="audio/no_guitar.mp3" type="audio/mp3">
                 </audio>
             </div>
